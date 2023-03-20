@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #1F577E;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<head>
+  <title>Career Exploration</title>
+  
+  
+  <link rel="stylesheet" href="Bootstrap_4.3.1/css/bootstrap.css" />
+  <!--Linked to CSS -->
+</head>
+
+<body style="background: #F3F3F3">
+  <!--This background color is light grey -->
+  <link rel="stylesheet" href="../Bootstrap_4.3.1/css/bootstrap.css" />
+  <!--Linked to CSS -->
+  <div class="container">
+    <nav style="background: white" class="nav nav-pills nav-fill">
+      <!--The bar with the links are white. -->
+      <a class="nav-item nav-link" href="index.html">
+        <font color="#000000">Home</font>
+      </a>
+      <!--This tab is not active but the font of the links are black. -->
+      <a class="nav-item nav-link" href="Sutaria_AboutMe.html">
+        <font color="#000000">About Me</font>
+      </a>
+      <a class="nav-item nav-link" href="Sutaria_Resume.html">
+        <font color="#000000">Resume</font>
+      </a>
+      <!--This tab is not active but the font of the links are black. -->
+      <a style="background:#1F577E" class="nav-item nav-link active" href="Sutaria_Career.html">Career Exploration</a>
+      <!--The resume tab is active because this is the resume page. The tab color is navy blue. -->
+      <a class="nav-item nav-link" href="Sutaria_Project.html">
+        <font color="#000000">Projects</font>
+      </a>
+      <!--This tab is not active but the font of the links are black. -->
+      <a class="nav-item nav-link" href="Sutaria_ContactMe.html">
+        <font color="#000000">Contact Me</font>
+      </a>
+      <!--This tab is not active but the font of the links are black. -->
+    </nav>
+  </div>
+
+  <div class="container">
+    <div style="background: #D0ECFF" class="jumbotron">
+      <!--The background color of the jumbotron is light grey-->
+      <div class="text-center">
+        <h1><strong>Career Exploration</strong>
+          <h1>
+            <!--This is the linked resume that opens in a new tab-->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <p>During my time in the engineering academy, I have met a couple of industry professionals through workplace field
+      trips and guest speakers on zoom. Here are a few that have inspired me.</p>
+  </div>
+
+  <div class="container">
+    <!--The container holds all the cards-->
+    <h5 style="background-color: #1F577E"><strong>
+        <font color="white">Field Trips</font>
+      </strong></h5>
+    <br>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row" style="height: 550px">
+            <!--The cards are in a row with a height of 420px so that the information fits.-->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="#1F577E">Field Trip - Splunk Job Shadow</font>
+                </h5>
+                <!--The color of this text is in navy blue-->
+                <h6>December 2020</h6>
+                <p class="card-text"> On this Splunk Field Trip over zoom, I learned a lot about Splunk from three
+                  speakers. The first speaker, Eric Fusilero, is the VP of the global technical enablement and education
+                  ecosystem. He talked about customers’ success and the steps they can take to make sure that they are
+                  successful. The second speaker, Ashima Puri, is the chief of staff to the chief people officer. She
+                  spoke about how it is necessary to get a job that you are passionate about. She additionally talked
+                  about how a career isn't a straight line. The last speaker, Dane Dungca has been in the company for 4
+                  months as an intern for corporate philanthropy from San Francisco State University. In the first year
+                  of his college, he did a year up program where he got a chance to discover different professions as he
+                  didn't know his interest going into college. It was really inspiring hearing from him because he
+                  learned about his passions through his years in college. All three of these speakers helped me learn
+                  more about Splunk and how they manage Data. Some Data they manage are Cloud, 5g, IoT, AI, platforms,
+                  mobility, virtualization, and robotic process automation. This field trip was very useful because I
+                  got to learn more about Splunk and it also influenced me to work for Splunk if I ever get the chance.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container">
+  <img src="Images/Splunk1.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"> Eric Fusilero</div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <!--The container holds all the cards-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row" style="height: 710px">
+            <!--The cards are in a row with a height of 420px so that the information fits.-->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="#1F577E">Field Trip - Autodesk University</font>
+                </h5>
+                <!--The color of this text is in navy blue-->
+                <h6>October 2021</h6>
+                <p class="card-text"> This Autodesk University field trip spanned 3 days with several different
+                  workshops and keynote speakers. I attended one keynote and two workshops. In the Architecture,
+                  Engineering and Construction Design Keynote, a video was played. The ideas presented were based on
+                  challenges engineers and architectures faced due to COVID-19. Nicholas Mangon talked about what
+                  adjustments were made, such as moving projects to the cloud and using Forged. Forged is a platform
+                  that provides a secure foundation for data sharing by connecting designers. Through this keynote, I
+                  learned useful information on how people have to adapt and alter their jobs as different hurdles come
+                  in the way. One of the two workshops I attended was Dynamo for Civil 3D: Automated Checks of
+                  Openformat Road Design Made Easy. In this workshop, I learned more about Autodesk Civil 3D tools. One
+                  of the many speakers, Ellisa Ambrassa, is a structural engineer and she discussed the typical process
+                  of using Civil 3D. The steps are to first import landXML, prepare the imported surface in the Civil 3D
+                  environment, set the design criteria, create horizontal alignments, create vertical profiles, check
+                  any design violations, and lastly fix errors and modify according to the design requirements. The last
+                  workshop I attended was the Crossroads of Civil 3D and Revit, where I learned more about how Civil 3D
+                  and Revit can work together because they both specialize in different things. Civil 3D is mostly good
+                  for all types of modeling, except Revit is better when it comes to corridors, walls, and wings on a
+                  cross-section. Sometimes both are used to create better designs, like bridges. The abutments and roads
+                  are made using Civil 3D and axis alignment parameters are made using Revit.
+                </p>
+              </div>
+            </div>
+          <div class="col-md-6">
+              <div class="container">
+  <img src="Images/Auto1.jpg" alt="Avatar" class="image" >
+  <div class="overlay">
+    <div class="text"> Nicolas Mangon</div>
+  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <!--The container holds all the cards-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row" style="height: 520px">
+            <!--The cards are in a row with a height of 420px so that the information fits.-->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="#1F577E">Field Trip - JA Entrepreneurship Summit</font>
+                </h5>
+                <!--The color of this text is in navy blue-->
+                <h6>November 2021</h6>
+                <p class="card-text"> On the Entrepreneurship Summit over zoom, I was able to learn about young
+                  individuals who were able to start their own companies. One entrepreneur I found inspiring was Amrit
+                  Robins. Mr. Robins is the CEO and founder of Axiom Cloud. His journey as an entrepreneur started when
+                  he went to Stanford for political science to solve climate change. The method he took was similar to
+                  the scientific method. He started with testing assumptions by interviewing to get more data, created a
+                  fundraising plan to create the company, received answers to the assumptions, built prototypes, and
+                  lastly got the first employee. With this method, Mr. Robins was able to earn money which attracted
+                  customers and more employees. One key point he emphasized was that it isn't hard to start your own
+                  business because other companies have already done those things. He additionally said that the hard
+                  part of starting your own business is finding a problem and solving it, as well as having dedicated
+                  people on the team. Mr. Robins talked about how crucial it is to work hard, to find responsible
+                  employees, and have a committed relationship with them so that they stay with the company.
+                </p>
+              </div>
+            </div>
+              <div class="col-md-6">
+              <div class="container">
+  <img src="Images/JA.jpg" alt="Avatar" class="image" >
+  <div class="overlay">
+    <div class="text"> Amrit Robins</div>
+  </div>
+              </div>
+          </div>
+            </div>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <!--The container holds all the cards-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row" style="height: 640px">
+            <!--The cards are in a row with a height of 420px so that the information fits.-->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="#1F577E">Field Trip - CTE Careers Webinar Series</font>
+                </h5>
+                <!--The color of this text is in navy blue-->
+                <h6>February 2022</h6>
+                <p class="card-text"> In the biotechnology career presentation over zoom I was able to interact with
+                  several individuals about this thriving industry. The presenter, Josie Sette is a director of
+                  biotechnology and she talked about how a biotech certificate can get you into a variety of careers
+                  such as biomedical technician, manufacturing technician, quality control technician, and animal
+                  technician. The definition of biotechnology is “the use of biological knowledge and modern
+                  technologies to make useful products from living organisms and biological processes”. Bioengineering,
+                  biochemistry, and chemical engineering combine to become biotechnology. This applies to biologics that
+                  fight cancer, drug and gene therapies(CRISPR), mRNA vaccines to combat COVID - 19, stem cell research,
+                  creating sustainable clothing and leather made from plants and mushrooms and meat substitutes. This
+                  presentation opened my eyes to pursuing biotechnology because it can be applied to any field. I additionally went to the computer science and digital media presentation on zoom. The presentor, Ray Kaupp is the regional director of ICT/DM. From this presentation, I learned that technology is required in any company, therefore, there will always be job openings. The bay area is the perfect place to have a job because there are an abundance of tech companies. As someone interested in the community college route, I appreciated learning more about getting an associates in computer science, and then transferring to a UC or CSU.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container">
+  <img src="Images/CTE.jpeg" alt="Avatar" class="image" >
+  <div class="overlay">
+    <div class="text"> Josie Sette</div>
+  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <!--The container holds all the cards-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row" style="height: 600px">
+            <!--The cards are in a row with a height of 420px so that the information fits.-->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="#1F577E">Field Trip - LLNL Job Shadow</font>
+                </h5>
+                <!--The color of this text is in navy blue-->
+                <h6>December 2022</h6>
+                <p class="card-text"> During the Livermore Lawrence National Lab Job Shadow on zoom, I was able to learn
+                  more about the lab itself and the types of jobs it offers. Livermore Lawrence National Lab was created
+                  in 1952. It currently has 521 facilities with a sister lab in Berkeley. One person that we talked to
+                  was Karly Knox. Karly Know started off as an intern with a degree in chemistry. Her current
+                  achievements at the laboratory is creating a molecule that turns into safe plastic. We additionally
+                  talked with Marc Stearman, who has a bachelors in Computer Science. His current job requires him to
+                  work with a lot of chemists, UNIX servers, nuclear weapon stimulations, and the lab’s storage and
+                  network evolution. One important advice he gave was how computer science could be applied into many
+                  other fields. We also got to take a look at the National Ignition Facility Laser, where the largest
+                  laser in the world resides. The light that comes out of this laser is 20 feet long and travels at a
+                  100 trillion of a second. It uses a thermonuclear process, similar to a microwave, except with the use
+                  of x-rays. The laser needs a lot of space to amplify the laser and protect the optic. I really
+                  appreciated this field trip over zoom, because it opened my eyes to working at the lab as one of my
+                  options after college. Previously, I was unaware that all different types of majors can work in the
+                  laboratory.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container">
+  <img src="Images/LLNL2.jpg" alt="Avatar" class="image" style="height:600px">
+  <div class="overlay">
+    <div class="text"> National Ignition Facility Laser</div>
+  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <h5 style="background-color: #1F577E"><strong>
+        <font color="white">Guest Speakers</font>
+      </strong></h5>
+    <br>
+    <!--The container holds all the cards-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row" style="height: 540px">
+            <!--The cards are in a row with a height of 420px so that the information fits.-->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="#1F577E">Guest Speaker - Andrea Madotto</font>
+                </h5>
+                <!--The color of this text is in navy blue-->
+                <h6>March 2021</h6>
+                <p class="card-text"> Andrea Madotto is a Ph.D. student in Electronic & Computer Engineering at the Hong
+                  Kong University of Science and Technology. During the zoom session, he spoke about conversational
+                  modeling and language generation. He discussed several natural language generation machines in a
+                  timeline starting from GPT-2 or Generative Pre-trained Transformer, all the way to GPT-3. He went into
+                  more extensive details about how the GPT-3 works and how it takes in information using a statistical
+                  code and gives a certain output depending on what was entered. He additionally addressed how the GPT-3
+                  picks its certain output by going through its database and picking a word that is rated with the
+                  highest numerical value. This I found quite fascinating. This talk was highly informational. I got a
+                  chance to learn how chat boxes use artificial intelligence to give an output that sounds like a human,
+                  rather than a machine. This talk was highly inspirational as well, partly because I too am interested
+                  in artificial intelligence and the way a machine can learn from itself. This was definitely an
+                  interesting and engaging guest speaker.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container">
+  <img src="Images/AM.jpeg" alt="Avatar" class="image" style="height:540px">
+  <div class="overlay">
+    <div class="text"> Andrea Madotto</div>
+  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <!--The container holds all the cards-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row" style="height: 570px">
+            <!--The cards are in a row with a height of 420px so that the information fits.-->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="#1F577E">Guest Speaker - Gracie Ermi</font>
+                </h5>
+                <!--The color of this text is in navy blue-->
+                <h6>April 2021</h6>
+                <p class="card-text"> Gracie Ermi is a research software engineer at Vulcan inc in Seattle. Her job
+                  requires her to build artificial intelligence to support wildlife research. One of the things she has
+                  worked on is automating the process of looking at multiple images and videos for wildlife surveys.
+                  These wildlife surveys take an extremely long time as an individual has to look through each media and
+                  count the population. So her team worked on elephants specifically and trained a machine learning
+                  module to identify the elephants in the picture, which made the lives of scientists easier. She also
+                  went into what exactly machine learning is. Machine learning is a technique in artificial intelligence
+                  and the goal is to get a computer to do a task by itself without a human. In order to do this,
+                  multiple pictures are labeled and a machine learning robot uses those images to identify the
+                  difference using all the angles. After looking at the images and their pixels, it could accurately
+                  identify in the future what that image is. Ms. Ermi did this specifically with elephants which counted
+                  all the elephants in the media by recognizing similarities that it has learned by itself. After doing
+                  this, she and her team started doing the same with whales. They were able to track the health of each
+                  whale by looking at the pattern on their back which makes them unique.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container">
+  <img src="Images/GE.jpg" alt="Avatar" class="image" style="height:570px">
+  <div class="overlay">
+    <div class="text"> Gracie Ermi</div>
+  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <!--The container holds all the cards-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row" style="height: 500px">
+            <!--The cards are in a row with a height of 420px so that the information fits.-->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="#1F577E">Guest Speaker - Donald James</font>
+                </h5>
+                <!--The color of this text is in navy blue-->
+                <h6>December 2021</h6>
+                <p class="card-text"> Donald James is a retired worker for the National Aeronautics Space
+                  Administration, better known as NASA. His original plan was to only work for NASA in order to gain
+                  some experience. However, working for NASA was a big deal and once people started asking him for
+                  autographs, he decided to stick with NASA permanently. One thing that helped him reach recognition by
+                  many people, including former president Obama, was his manners. He witnessed how being smart wasn’t
+                  enough because even smart people could get fired due to their poor manners. These manners should be
+                  expressed through empathy, behavior, and verbally. Mr. James helped me realize that a successful
+                  person is not someone who may appear knowledgable, it is someone who is well rounded. Being as equally
+                  mannered and respectful can take you further in life or as the title of his book says, “Manners Will
+                  Take You Where Brains and Money Won't”. I was greatly inspired by Mr. James presentation and words. I
+                  was lucky enough to get my copy of his book signed by him.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container">
+  <img src="Images/DJ.jpeg" alt="Avatar" class="image" style="height:500px" >
+  <div class="overlay">
+    <div class="text"> Donald James</div>
+  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <!--The container holds all the cards-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="row" style="height: 500px">
+            <!--The cards are in a row with a height of 420px so that the information fits.-->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="#1F577E">Guest Speaker - Sravanthi Rajanala</font>
+                </h5>
+                <!--The color of this text is in navy blue-->
+                <h6>December 2022</h6>
+                <p class="card-text">Sravanthi Rajanala is a director of machine learning and artificial intelligence at
+                  Walmart Global Tech. She did all of her education in India and first started off as a software
+                  engineer before she gained interest in deep learning. As someone who plans on pursuing machine
+                  learning in the future, I was glad to learn more about the process through Mrs. Rajanala. One of the
+                  main things that I took away from her is that for any machine learning model to be accurate, it is
+                  important that the data doesn’t have any biases. The more variability it has, the better it is for the
+                  computer to apply the data in a real world situation. Once the data is gathered, the model has to be
+                  trained multiple times with different samples. Then it is ready to get exported. I additionally
+                  learned more about the algorithms themselves, which are just mathematical techniques that solve
+                  multiple variables in a problem. Ms. Rajanala inspired me to continue pursuing artificial intelligence
+                  in the future. AI is used in almost everything and creating a model that learns from itself is very
+                  intriguing.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container">
+  <img src="Images/SJ (1).jpg" alt="Avatar" class="image" style="height:500px">
+  <div class="overlay">
+    <div class="text">Sravanthi Rajanala </div>
+  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            <br>
+          <div class="container">  
+            <h5 style="background-color: #1F577E"><strong>
+        <font color="white">Mentor Program</font>
+      </strong></h5>
+            <br>
+            <p>During my junior year, I was lucky enough to have 2 great mentors who were able to guide me for the future. My primary mentor was Jose Martinez, but I was able to gain some insights from my partner's mentor, Chris Hunt. Mr. Martinez is a retired civil engineer who went to UC Berkeley and worked for the City of Oakland. A few of the projects he have worked on are the Hover Dam, Golden Gate Bridge, and the Space Needle in Seattle. Similarily, Mr. Hunt is a civil and geotechnical engineer who went to UC Berkeley. He works as a senior principle for Geosyntec Consultants. Although I do not want to pursue civil engineering, both of my mentors helped me with perfecting my resume and perfecting responses for interview questions. One thing I learned from my mentors regarding my interest, programming, was that it wasn't always done on a computer. Previously, programming punch cards were used and inserted into the computer, which read the code off of the paper. One thing I learned from my mentors and this experience was that during interviews, it is important to say that you have background in being both a leader and follower. Buisnesses want to see people who know how to lead projects, but also follow when needed. I additonally gained insight from my mentors on how community college can be benefitial and cheaper. Going to a comunity college and then transfering to a UC has always been my plan, so I am thankful that my mentors gave me reasuring advice.</p>
+          </div>
+
+  
+  
+  <!--<div class="container">
+    <!--The container holds all the cards-->
+  <!--<div class="row">
+     <div class="col-md-12"> 
+      <div class="card">
+        <div class="row" style="height: 350px">
+        <!--The cards are in a row with a height of 420px so that the information fits.-->
+  <!--<div class="col-md-12">
+            <div class="card-body">
+              <h5 class="card-title"><font color="#1F577E">Guest Speaker - Devon Martin</font></h5>
+              <!--The color of this text is in navy blue-->
+  <!--<h6>November 2019</h6>
+              <p class="card-text"> Devon Martin is a software engineer that works at chevron. He was a guest speaker that came in my CSP class. He talked about his day to day life working for chevron. One of the many things he talked about was how his job requires good communication skills.He explained that this communication is very important because he spends 50% of his day in meetings. I was very intrigued when he said that his company provides time to do personal developments. Furthermore, I was fascinated when he said Chevron doesn't want their workers to bring work home.
+              <br>
+              <br>
+              This guest speaker helped me learn more about what software engineers really do and how their day to day life is. From his presentation I was inspired to know more about Chevron and their 5 year rotation program. This program is where the software engineers can rotate their job and take up something new every 2 years. I believe that this is a great way for engineers to not be bored and work on the same thing.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>  
+  </div> -->
+
+  <br>
+
+
+
+  <!--<div class="container">
+    <!--The container holds all the cards-->
+  <!--<div class="row">
+     <div class="col-md-12"> 
+      <div class="card">
+        <div class="row" style="height: 350px">
+        <!--The cards are in a row with a height of 420px so that the information fits.-->
+  <!--<div class="col-md-12">
+            <div class="card-body">
+              <h5 class="card-title"><font color="#1F577E">Guest Speaker - Rick Hightower</font></h5>
+              <!--The color of this text is in navy blue-->
+  <!--<h6>November 2019</h6>
+              <p class="card-text"> Mr. Hightower was one of the guest speakers we had in CSP. He is the 2018 Java champion that was selected out of 7.1 million java developers. He is also the author of a bestselling agile development book. During his presentation he talked about how he didn't have good grades in high school. This was surprising to me. He also talked about how he worked on NFL servers.
+              <br>
+              <br>
+              This guest speaker inspired me to achieve what seems impossible. Becoming a Java champion is a great accomplishment, especially when it is out 7.1 million other developers. I was also inspired to do better after high school just like Mr. Hightower. Even though he didn't have good grades, he still became a very good coder later on in his life.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>  
+  </div> -->
+  <br>
+
+
+
+
+
+
+  <footer class="container">
+    <!-- All the information in the footer is in a container. -->
+    <div style="background: #D0ECFF" class="jumbotron">
+      <!-- The background color of the jumbotron is light blue. -->
+      <!--<div class="row">
+        <div class="col-3">
+          <a href="mailto:gracysutaria@gmail.com" target="_blank">
+          <!--When you click on the image, you go to your email page that already composes an email with my email address -->
+      <!--<img src="Images/mail.png" style="max-width: 100px">
+          <!--This is a clear background image of a mail logo with a size of 100px -->
+      <!--</a>
+        </div>
+          <div class="col-3">
+          <!--This information is slightly in the center. -->
+      <!--  <a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin" target="_blank">
+            <!--When you click this image it takes you to the linkedin website. -->
+      <!--<img src="Images/In.png" style="max-width: 100px">
+            <!--This is a clear background image of the linkedin logo which has a size of 100px.  -->
+      <!--</a>
+          </div>
+            <div class="col-5">
+              <a href="http://www.dublin.k12.ca.us/dhs" target="_blank">
+              <!--When you click this image it takes you to the DHS website. -->
+      <!--<img src="Images/DHS2.png" style="max-width: 100px" class="float-right">
+                <!--This is a clear background image of the DHS logo that is on the furthest right of the jumbotron -->
+      <!--</a>
+            </div>
+      </div>-->
+    </div>
+  </footer>
+</body>
